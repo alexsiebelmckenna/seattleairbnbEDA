@@ -8,3 +8,5 @@ Data understanding: 1 dataset with characteristics of listings, 1 availability c
 Data preparation: Please see attached Jupyter Notebook.
 
 Modeling/Evaluation: We use an independent t-test to gauge whether mean occupancy rates between investor and non-investor groups have a statistically significant difference between them.
+
+Accompanying description/article: https://alexsiebelmckenna.medium.com/are-airbnb-management-companies-really-worth-it-f21ac730c4c5
