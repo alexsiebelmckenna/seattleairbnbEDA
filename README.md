@@ -1,10 +1,10 @@
 # Udacity Data Science Nanodegree Project 1: Write a Blog Post
 
-# Seattle Airbnb EDA: Are Airbnb management companies really worth it?
+<h2>Seattle Airbnb EDA: Are Airbnb management companies really worth it?</h2>
 
-In the attached notebook to investigate whether property management companies offer good occupancy rates when compared to individually-hosted listings. This analysis follows CRISP-DM methodology, as outlined in the following steps:
+In the attached notebook I investigate whether property management companies offer better occupancy rates than individually-hosted listings. This analysis follows CRISP-DM methodology, as outlined in the following steps:
 
-# Business understanding
+<h2>Business understanding</h2>
 
 Should individuals let property management companies handle their Airbnb listings for a cut?
 Questions:
@@ -12,14 +12,14 @@ Questions:
 2. What are the occupancy rates of these listings?
 3. Are occupancy rates of investor-owned listings higher than that of individually-owned listings?
 
-# Data understanding 
+<h2>Data understanding</h2>
 
 I explore data gathered by Inside Airbnb (http://insideairbnb.com/get-the-data.html):
 
 1. seattle_listings: Characteristics of 3818 individual Airbnb listings in Seattle (e.g. listing IDs, price, average review, etc.)
 2. seattle_calendar: 365 days of availability data for all 3818 listings between 2016-2017 (available = 't' or 'f')
 
-# Data preparation
+<h2>Data preparation</h2>
 
 - Renaming certain hosts to recognize that some property management companies list properties under a first name
 - Constructing count DataFrame containing the values of total listings (column 'host_listing_counts') by host, for hosts with more than 10 total listings
@@ -38,7 +38,7 @@ R-index value = (Calculated no. of listings in seattle_calendar)/(Reported value
 - Plot occupancy rates as a boxplot.
 - Use a two-sample independent t-test to test the null hypothesis that the occupancy rates are the same vs. the alternative hypothesis that they are not.
 
-# Modeling
+<h2>Modeling</h2>
 
 <h5>Question 1: Who are the hosts with the most property listings in Seattle?</h5>
 
@@ -64,7 +64,7 @@ No, on the contrary - property listings hosted by the rest of the population (i.
 
 Using the two-sample independent t-test, test the hypothesis that the mean occupancy rates are equal across investor and non-investor groups. This test yields a t-statistic of t-value is -3.127 and the associated p-value is 0.009, leading us to reject this null hypothesis in favor of the alternative hypothesis that the mean occupancy rates of investor-hosted listings are lower (by 19 percentage points) than occupancy rates of individually-hosted listings.
 
-# Evaluation 
+<h2>Evaluation</h2> 
 
 We use an independent t-test to gauge whether mean occupancy rates between investor and non-investor groups have a statistically significant difference between them and conclude that on average, occupancy rates for investor-hosted listings are **lower** than those of non-investor-hosted listings (by 19 percentage points). As the appeal of property management companies lies in its promises of higher occupancy rates, the results of this analysis do not bode well for how effective this strategy turns out to be.
 
