@@ -68,8 +68,32 @@ Using the two-sample independent t-test, test the hypothesis that the mean occup
 
 We use an independent t-test to gauge whether mean occupancy rates between investor and non-investor groups have a statistically significant difference between them and conclude that on average, occupancy rates for investor-hosted listings are **lower** than those of non-investor-hosted listings (by 19 percentage points). As the appeal of property management companies lies in its promises of higher occupancy rates, the results of this analysis do not bode well for how effective this strategy turns out to be.
 
-# Acknowledgements
+<h2>Acknowledgements</h2>
 
 I'd like to acknowledge the good work that folks at Inside Airbnb do to make open source data more accessible (http://insideairbnb.com/get-the-data.html).
 
 Accompanying description/article: https://alexsiebelmckenna.medium.com/are-airbnb-management-companies-really-worth-it-f21ac730c4c5
+
+<h2>Libraries used</h2>
+
+1. pandas
+2. numpy
+3. matplotlib 
+4. seaborn
+5. scipy
+
+<h2>Files in this repo</h2>
+
+Notebook:
+airbnb_EDA.ipynb: Jupyter Notebook containing Python code used for this analysis
+
+Images:
+numberofhosts.png: Hosts with listing counts > 10, plotted against total listings per host
+r-index.png: R-index (see above) values across host
+occupancyrate_by_host.png: Occupancy rates across host
+boxplot.png: Comparing occupancy rates of investor-hosted listings and individually-owned listings
+
+Data:
+seattle_calendar.csv.zip: Availability calendar
+seattle_listings.csv: Listings dataset
+
