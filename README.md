@@ -85,15 +85,18 @@ Accompanying description/article: https://alexsiebelmckenna.medium.com/are-airbn
 <h2>Files in this repo</h2>
 
 Notebook:
-airbnb_EDA.ipynb: Jupyter Notebook containing Python code used for this analysis
+
+1. airbnb_EDA.ipynb: Jupyter Notebook containing Python code used for this analysis
 
 Images:
-numberofhosts.png: Hosts with listing counts > 10, plotted against total listings per host
-r-index.png: R-index (see above) values across host
-occupancyrate_by_host.png: Occupancy rates across host
-boxplot.png: Comparing occupancy rates of investor-hosted listings and individually-owned listings
+
+1. numberofhosts.png: Hosts with listing counts > 10, plotted against total listings per host
+2. r-index.png: R-index (see above) values across host
+3. occupancyrate_by_host.png: Occupancy rates across host
+4. boxplot.png: Comparing occupancy rates of investor-hosted listings and individually-owned listings
 
 Data:
-seattle_calendar.csv.zip: Availability calendar
-seattle_listings.csv: Listings dataset
+
+1. seattle_calendar.csv.zip: Availability calendar
+2. seattle_listings.csv: Listings dataset
 
