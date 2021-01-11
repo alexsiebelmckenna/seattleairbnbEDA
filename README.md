@@ -17,7 +17,7 @@ Questions:
 I explore data gathered by Inside Airbnb (http://insideairbnb.com/get-the-data.html):
 
 1. seattle_listings: Characteristics of 3818 individual Airbnb listings in Seattle (e.g. listing IDs, price, average review, etc.)
-2. seattle_calendar: 365 days of availability data for all 3818 listings between 2016-2017 (available = 't' or 'f')
+2. seattle_calendar: 365 days of availability data for all 3818 listings between 2016-2017 (available == 't' or 'f')
 
 <h2>Data preparation</h2>
 
